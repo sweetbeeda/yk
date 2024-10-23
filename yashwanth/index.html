@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>one portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="container">
+        <div class="nav">
+            <h1>yash website</h1>
+            <ul class="showmenu">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Project</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+
+        </div>
+
+
+        <div id="hero-section">
+            <div class="para">
+                <p>hi i'm a full stack developer...</p>
+            </div>
+            <div class="image">
+                <img src="/asset/back img.jpg" alt="">
+
+            </div>
+
+            <div class="btn">
+                <button>click here to contact me</button>
+            </div>
+        </div>
+
+        <div id="landing-page">
+            <div class="image-one">
+                <img src="/asset/man with mass stand.jpeg" alt="">
+            </div>
+
+            <div class="para-one">
+                <p>I am a full stack developer with expertise in both forntend and backend technologies.I specialize in
+                    creating responsive,user-friendly websites and application using mordern frameworks like react js ,
+                    node.js etc.
+                    my passion lies in building effcient,scalable web solution that deliver seamless user experiences.
+                </p>
+            </div>
+            <div class="btn-one">
+                <button>view my work</button>
+            </div>
+
+        </div>
+
+        <div id="about-me">
+            <div class="adout">
+                <h1>about me</h1>
+            </div>
+
+            <div class="para-two">
+                <p>I am a skilled Full Stack Web Developer with a background in computer science and several years of
+                    experience in building dynamic, high-performance web applications. I have a strong foundation in
+                    both front-end and back-end technologies, including HTML, CSS, JavaScript, React, Node.js, and
+                    databases like MongoDB and MySQL. My design philosophy revolves around creating intuitive, visually
+                    appealing, and accessible interfaces, while ensuring efficient server-side operations for seamless
+                    functionality. I am passionate about developing solutions that not only meet client needs but also
+                    enhance user experiences, with a keen focus on scalability, security, and performance optimization.
+                </p>
+            </div>
+
+        </div>
+
+
+        <div id="footer">
+            <div class="con-me">
+                <h1>for contact me</h1>
+            </div>
+
+            <div class="mobile">
+                <h2>mobile no : 8148035717</h2>
+            </div>
+
+            <div class="mail">
+                <h2>email : <a href="mailto:someone@gmail.com"></a>yr375003@gmail.com</h2>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+     const menu = document.querySelector('.menu')
+     const menulist = document.querySelector('.nav .menu')
+     menu.addEventListener ('click',()=>{
+        menulist.classList.toggle('.showmenu')
+     }) 
+</script>
+</html>
